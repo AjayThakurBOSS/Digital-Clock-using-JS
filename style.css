@@ -1,0 +1,37 @@
+/* @font-face{
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    background: green;
+}
+
+.times {
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'digital-clock-font';
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.weekdays {
+    display: flex;
+}
+
+.weekdays .days {
+    border-radius: 4px;
+    margin: 03px;
+    padding: 05px;
+    border: 1px solid white;
+    font-weight: 600;
+}
